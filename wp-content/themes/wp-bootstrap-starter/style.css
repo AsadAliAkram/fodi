@@ -965,6 +965,22 @@ body:not(.theme-preset-active) footer#colophon {
     position: relative;
     left: -105px;
     background-color: #000;
+    flex-direction: column;
+}
+#menu-main-menu li {
+    margin-left: 290px;
+}
+#menu-main-menu a {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    width: -moz-fit-content;
+    background-color: red;
+    margin: 5px;
+    color: #000 !important;
+    padding: 4px 20px !important;
+}
+#menu-item-28 {
+    margin-top: 150px;
 }
 
 /*CUSTOM FOOTER STYLING*/
