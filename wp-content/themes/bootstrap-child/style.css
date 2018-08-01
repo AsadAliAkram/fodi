@@ -1,0 +1,232 @@
+/*
+Theme Name: Bootstrap Child Theme
+Theme URL: http://wordpress:8888/
+Description: This is a child theme
+Author: Asad Ali Akram
+Template: wp-bootstrap-starter
+Version: 0.1
+*/
+
+@import url("../wp-bootstrap-starter/style.css");
+
+
+/*CUSTOM HEADER STYLING*/
+#page-sub-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#page-sub-header h1, #page-sub-header p {
+    display: none;
+}
+#page-sub-header a.page-scroller {
+    margin: 0 auto;
+    bottom: 0px;
+    position: absolute;
+}
+.navbar-brand img {
+    width: 190px;
+}
+.navbar.navbar-expand-xl.p-0 {
+  z-index: 1;
+}
+#masthead nav button.navbar-toggler {
+    display: none;
+}
+.responsive-menu {
+    position: relative;
+    float: right;
+    margin: 30px;
+    width: 50%;
+    text-align: right;
+}
+.responsive-menu a.r-menu-icon {
+    text-decoration: none;
+    background-color: #fe350f;
+    color: #000;
+    padding: 7px 8px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    border: solid 2px #fe350f;
+    position: relative;
+    z-index: 1;
+}
+.responsive-menu a.r-menu-icon:hover {
+    background: none;
+    color: #fe350f;
+}
+.responsive-menu .buy-tickets {
+    color: #fff;
+    font-size: 30px;
+    margin: 0px 15px;
+    top: 4px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+#menu-main-menu {
+    position: relative;
+    left: -105px;
+    background-color: #000;
+    flex-direction: column;
+    z-index: 1;
+}
+#menu-main-menu li {
+    margin-left: 290px;
+}
+#menu-main-menu a {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: red;
+    margin: 5px;
+    color: #000 !important;
+    padding: 4px 20px !important;
+}
+#menu-item-28 {
+    margin-top: 150px;
+}
+
+/*CUSTOM FOOTER STYLING*/
+
+header#masthead {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+header#masthead video {
+  position: absolute;
+}
+div#footer-widget {
+    background-color: #000 !important;
+}
+.footer-section {
+    width: 65%;
+    margin: 0 auto;
+}
+.footer-section .foot-menu {
+    margin: 70px 0px;
+}
+.footer-section .foot-form form {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 100px;
+}
+.footer-section .foot-form {
+    padding: 35px;
+}
+.footer-section .foot-menu .col-md-3.col-sm-12.col-xs-12 {
+    text-align: center;
+}
+.footer-section .foot-menu a {
+    color: #000;
+    background: #fff;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    border: solid 2px #fff;
+}
+.footer-section .foot-menu a:hover {
+    color: #fff;
+    background: none;
+}
+.footer-section .foot-form input[type="email"],
+.footer-section .foot-form input[type="text"] {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: solid 2px #fff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  font-weight: bold;
+}
+::placeholder {
+  color: #fff;
+  font-weight: bold;
+}
+.footer-section .foot-form input[type="submit"] {
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #fe350f;
+    color: #000;
+    border: solid 2px #fe350f;
+    font-weight: bold;
+    float: right;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer-section .foot-form input[type="submit"]:hover {
+    background: none;
+    border: solid 2px #fe350f;
+    color: #fe350f;
+}
+.footer-section .foot-present {
+    color: #fff;
+    margin-top: 20px;
+}
+.footer-section .foot-present p {
+    margin-left: 35px;
+}
+.footer-section .foot-present .col-md-4.col-sm-6.col-xs-6 {
+  text-align: center;
+}
+.footer-section .foot-present img {
+  text-align: center;
+  width: 140px;
+}
+.footer-section .foot-suport {
+    color: #fff;
+    margin-top: 20px;
+}
+.footer-section .foot-suport p {
+    margin-left: 35px;
+}
+.footer-section .foot-suport .col-md-4.col-sm-6.col-xs-6 {
+  text-align: center;
+}
+.footer-section .foot-suport  img {
+  text-align: center;
+  width: 140px;
+}
+.footer-section .foot-social-icon {
+    margin-top: 50px;
+}
+.footer-section .foot-social-icon ul {
+    list-style: none;
+    background-color: #fff;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+.footer-section .foot-social-icon li {
+    float: left;
+    text-align: center;
+}
+.footer-section .foot-social-icon i {
+    color: #000;
+    background-color: #fe350f;
+    width: 33px;
+    font-size: 22px;
+    margin: 10px;
+    padding: 5px;
+    border: solid 2px #fe350f;
+}
+.footer-section .foot-social-icon i:hover {
+    background: none;
+    color: #fe350f;
+}
+.footer-section .foot-social-icon p {
+    clear: both;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
